@@ -1,0 +1,253 @@
+.div-container{
+  width: auto;
+  height: auto  ;
+}
+
+.container-logo {
+ 
+  width: 100px;
+  height: 800px;
+
+  
+}
+
+.container-logo img {
+  margin-top: 90px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+animation:  container-logo 7s infinite ;
+}
+
+@keyframes container-logo{
+
+  0%{
+    opacity: 0;
+    animation-timing-function: ease-in;
+  }
+  12%{
+    opacity: 1;
+  }
+  25%{
+    transform: scale(1.2);
+  }
+  75%{
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.container-logo:nth-child(1){
+  animation: fadeIn 2s ease-in-out; /* Ajusta la animación según sea necesario */
+}
+
+.container-logo:nth-child(2){
+  animation: fadeIn 2s ease-in-out; /* Ajusta la animación según sea necesario */
+}
+
+.container-logo:nth-child(3){
+  animation: fadeIn 2s ease-in-out; /* Ajusta la animación según sea necesario */
+}
+
+
+
+.container-boton{
+  position: relative;
+  z-index: 2;
+  width: auto;
+  height: auto;
+}
+
+.micuentaBoton{
+  
+  display: flex;
+  align-items:end;
+  align-items: center;
+ margin-right: 40px;
+  margin-left: auto; /* Mover el botón al lado derecho */
+  font-size: 20px;
+  font-weight: bold;
+  width: auto;
+  height: 60px;
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+  padding: 10px 20px; /* Corrección: coma en lugar de coma */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 10px;
+  
+}
+
+
+.imagenLogo{
+  width: 13vh;
+  
+  
+  background-color: blueviolet;
+  border-radius: 50%;
+  
+}
+
+
+
+.class-gym {
+  right: 0; /* Alinea a la derecha */
+}
+
+.center-content {
+  flex-grow: 1; /* Ocupa todo el espacio disponible en el centro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.containerEnlaces {
+z-index: 1;
+  
+  
+}
+
+button {
+  font-size: 2rem;
+}
+
+.enlaces {
+  display: flex; /* Mostrar los enlaces en tablets y pantallas grandes */
+    justify-content: space-between; /* Restablecer la distribución */
+    align-items: center;
+  list-style: none;
+  z-index: 999;
+  margin-top: 20px;
+  right: 90px;
+  
+
+}
+
+
+.transparent-nav {
+  background-color: transparent;
+}
+
+.colored-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 26, 27); /* Reemplaza 'your-color' por el color deseado */
+}
+
+.enlaces li {
+  margin-right: 20px; /* Ajusta el espacio entre los elementos */
+  font-size: 30px; /* Ajusta el tamaño de fuente */
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilo para el último enlace */
+.enlaces li:last-child {
+  margin-right: 0; /* No agregar margen derecho al último elemento */
+}
+
+
+.nameGym {
+  display: flex;
+  justify-content: center;
+  font-size: 90px; /* Tamaño de fuente para .gymNavbar */
+  color: red;
+  width: auto;
+  margin-top: -230px;
+
+} 
+
+
+@media screen and (min-width: 601px) {
+  .menuhamburger {
+    display: none;
+    
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-logo {
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+  }
+  
+  .container-logo img {
+    width: 100%;
+    height: 200px;
+    margin: 0; /* Ajustar el margen en todos los lados */
+  }
+
+  .container-boton {
+    position: fixed;
+    top: 5px;
+    right: 10px; /* Ajusta la posición del botón en la esquina superior derecha */
+    width: auto;
+    height: auto;
+    z-index: 999;
+  }
+
+  .micuentaBoton {
+    font-size: 14px; /* Ajusta el tamaño del botón */
+  }
+
+  .gymNavbar {
+    font-size: 30px; /* Reducir el tamaño de fuente para pantallas pequeñas */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Ajusta el margen superior */
+  }
+
+  .enlaces {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: auto;
+    top: 60px; /* Ajusta la posición vertical del menú */
+  }
+  
+  .enlaces.open {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border-radius: 0; /* Elimina el redondeo en las esquinas */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .imagenLogo {
+    width: 60px; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+    height: auto;
+    margin-left: 5px; /* Ajusta el margen izquierdo */
+  }
+
+  .enlaces li {
+    font-size: 16px; /* Ajusta el tamaño de fuente de los enlaces */
+    margin: 10px 0;
+    padding-bottom: 5px;
+  }
+
+  .nameGym {
+    font-size: 20px; /* Ajusta el tamaño de fuente del nombre del gimnasio */
+    margin-top: 0; /* Elimina el margen superior */
+  }
+}

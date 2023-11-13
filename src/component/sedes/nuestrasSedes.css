@@ -1,0 +1,52 @@
+.containerNuestrassedes{
+width: auto;
+height: 100px;
+display: flex;
+display: flexbox;
+justify-content: center;
+
+
+}
+
+.botones-sedes{
+margin: auto;
+position: relative; /* Importante para establecer una posición relativa */
+z-index: 1;
+  top: 100px; /* Mueve el elemento hacia abajo 20px */
+}
+
+.botonSedes{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    margin: 10px; /* Añade un margen de 10px en la parte inferior de cada botón */
+border-radius: 20px;
+width: 300px;
+height: 40px;
+
+
+}
+.botonSedes:hover {
+    background-color: blue; /* Cambia el color de fondo al pasar el mouse */
+    color: white; /* Cambia el color del texto al pasar el mouse */
+}
+
+
+@media screen and (max-width: 600px) {
+
+.containerNuestrassedes{
+ display: flexbox;
+ justify-content: center;
+ margin-bottom: 10px;
+
+}
+  
+
+    .botonSedes {
+      font-size: 10px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      margin: 5px; /* Margen más pequeño */
+      width: 100px; /* Ancho más pequeño */
+      height: 30px; /* Altura más pequeña */
+    }
+  }

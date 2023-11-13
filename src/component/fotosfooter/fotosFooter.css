@@ -1,0 +1,52 @@
+.containerPpal{
+background-color: red;
+  width: auto;
+  height: auto;
+}
+.container-fotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .container-fotos img {
+    width: 200px; /* Divide el espacio en tres para cada imagen */
+    height: 350px; /* Ajusta la altura automáticamente para mantener la proporción */
+    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    margin: 10px;
+    
+  }
+
+  @media (max-width: 600px) {
+
+    .containerPpal{
+      display: flex;
+      justify-content: center;
+      
+      background-color: red;
+        width: 300px;
+        height: 100px;
+      }
+
+    .container-fotos{
+     
+      display: flex;
+    height: 200px; /* Puedes ajustar la altura según tus necesidades */
+    justify-content: center; /* Centrar elementos horizontalmente */
+    align-items: center; /* Centrar elementos verticalmente */
+    background-color: red;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+     
+    } 
+
+    .container-fotos img {
+      width: 50px;
+    height: 200px;
+    margin: 0 5px; /* Ajustar el margen en todos los lados */
+  
+      
+    }
+  

@@ -1,0 +1,35 @@
+.container-limites{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    background-color: red;
+    width: auto;
+    height: 200px;
+    color: red;
+
+
+    
+}
+
+
+.container-limites p{
+color: white;
+margin-left: 50px ;
+
+}
+
+.container-limites button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+

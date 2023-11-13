@@ -1,0 +1,67 @@
+#containerCard {
+    border-radius: 10px; /* Opcional: agrega esquinas redondeadas */
+    width: auto; 
+    height: auto;
+    margin: 120px; /* Centra horizontalmente */
+      padding: 50px; /* Agrega relleno para separar el contenido del borde */
+   margin-top: 70px ;
+   display: flex; /* Utiliza un contenedor flexible para alinear elementos horizontalmente */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 50px 0px 0px 0px;
+
+  /* transition-property: width;
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out; */
+transition:  all 800ms ease-in-out;
+cursor: pointer;
+  }
+
+  #containerCard:hover{
+    width: 800px;
+  }
+  
+  #containerCard img{
+    width: 800px; /* Establece el ancho máximo de la imagen */
+    height: 400px; /* Permite que la altura se ajuste automáticamente */
+    margin-right: 15px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+  }
+
+  #containerCard p{
+    margin-left: 25px;
+    font-size: 30px; /* Establece el tamaño de fuente del texto */
+    color: white; /* Establece el color del texto */
+  }
+
+  
+
+  p{
+    font-size: 50px;
+    color: white;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    #containerCard {
+      width: 350px; /* Cambiar el ancho para pantallas más pequeñas según tus necesidades */
+      height: auto;
+      margin-top: 70px ;
+      padding: 0 ;
+      margin-top: 10px ; 
+     background-color: rgba(65, 28, 28, 0.7); /* Rojo con 70% de opacidad */
+      margin-left: 20px;
+    }
+
+    #containerCard p{
+      
+      font-size: 15px; /* Establece el tamaño de fuente del texto */
+      color: white; /* Establece el color del texto */
+    }
+
+    #containerCard img{
+      max-width: 100px; /* Establece el ancho máximo de la imagen */
+      height: 100px; /* Permite que la altura se ajuste automáticamente */
+      margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+    }
+  }
+
+  
