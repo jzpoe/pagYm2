@@ -12,13 +12,13 @@
   /* transition-property: width;
   transition-duration: 800ms;
   transition-timing-function: ease-in-out; */
-transition:  all 800ms ease-in-out;
-cursor: pointer;
+/* transition:  all 800ms ease-in-out;
+cursor: pointer; */
   }
 
-  #containerCard:hover{
+  /* #containerCard:hover{
     width: 800px;
-  }
+  } */
   
   #containerCard img{
     width: 800px; /* Establece el ancho máximo de la imagen */

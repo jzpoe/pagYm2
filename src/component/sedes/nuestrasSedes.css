@@ -44,9 +44,11 @@ height: 40px;
   
 
     .botonSedes {
-      font-size: 10px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+      font-size: 15px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
       margin: 5px; /* Margen más pequeño */
-      width: 100px; /* Ancho más pequeño */
-      height: 30px; /* Altura más pequeña */
+      width: 150px; /* Ancho más pequeño */
+      height: 60px; /* Altura más pequeña */
+      background-color: transparent;
+      border-color: red;
     }
   }

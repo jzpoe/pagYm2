@@ -1,5 +1,8 @@
+
+
 import { useEffect, useState } from 'react';
 import ScrollReveal from 'scrollreveal';
+import Swipe from './Swipe';
 import './navbar.css';
 
 const Navbar = () => {
@@ -58,10 +61,9 @@ const Navbar = () => {
 
       
 
+
       <div className="container-logo">
-        <img src="./src/img/mujer-abdominales-visibles-haciendo-fitness.jpg" alt="" />
-        <img src="./src/img/mujer-abdominales-visibles-haciendo-fitness.jpg" alt="" />
-        <img src="./src/img/mujer-abdominales-visibles-haciendo-fitness.jpg" alt="" />
+        <Swipe/>
       </div>
 
       {/* <div className="class-logo">

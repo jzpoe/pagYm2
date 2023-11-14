@@ -28,7 +28,9 @@ const CardPromo = () => {
         <p>
         lleva tu plan por el valor de 89.000
         </p>
+        <div className='botonPromo'>
         <button className='botomPromo'>aplica</button>
+        </div>
          </div>
          
     </div>

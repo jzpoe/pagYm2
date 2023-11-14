@@ -1,3 +1,5 @@
+
+
 .div-container{
   width: auto;
   height: auto  ;
@@ -5,22 +7,19 @@
 
 .container-logo {
   display: flex;
-  justify-content: space-between;
-  
- width: auto;
-  height: auto;
+  height: 600px; /* Ajusta la altura según tus necesidades */
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  margin-right: 10px;
   margin-left: 10px;
-  margin-right: 80px;
-
-  
+  margin-top: 80px;
 }
 
 .container-logo img {
-  width: 33.33%; /* Divide el espacio en tres para cada imagen */
-  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-  object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
-  margin: 8px;
-  
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .container-boton{
@@ -150,9 +149,9 @@ button {
   
   .container-logo {
     display: flex;
-    height: 200px; /* Puedes ajustar la altura según tus necesidades */
-    justify-content: center; /* Centrar elementos horizontalmente */
-    align-items: center; /* Centrar elementos verticalmente */
+    height: auto; /* Ajusta la altura según tus necesidades */
+    justify-content: center;
+    align-items: center;
     background-color: red;
     margin-right: 10px;
     margin-left: 10px;
@@ -160,9 +159,9 @@ button {
   }
   
   .container-logo img {
-    width: 100px;
-    height: 200px;
-    margin: 0 5px; /* Ajustar el margen en todos los lados */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .container-boton {
@@ -246,8 +245,17 @@ margin-right: 90px;
     margin-top: -20px;
   }
 
-  .nameGym{
+  .container-nameGym{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+  }
+
+  .nameGym{
+   
+    position: absolute;
+    z-index: 9000;
     font-weight: bold;
     font-size: 40px;
     margin-top: -60px;

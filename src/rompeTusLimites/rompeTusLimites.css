@@ -14,6 +14,7 @@ align-items: center;
 
 .container-limites p{
 color: white;
+font-size: 15px;
 margin-left: 50px ;
 
 }
@@ -29,6 +30,38 @@ margin-left: 50px ;
     width: 250px;
     height: 50px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-limites{
+        display: flex;
+      justify-content: space-between;
+      align-items: center;
+    background-color: red;
+    width: auto;
+    height: 100px;
+    color: red;
+    margin-bottom: 50px;
+    } 
+
+    .container-limites p{
+        color: white;
+        margin-left: 50px ;
+        
+        }
+
+        .container-limites button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+            margin-right: 50px;
+            font-size: 15px;
+            font-weight: bold;
+            width: 150px;
+            height: 50px;
+            border-radius: 10px;
+        }
 }
 
 
