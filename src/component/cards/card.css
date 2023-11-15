@@ -1,5 +1,6 @@
 #containerCard {
     border-radius: 10px; /* Opcional: agrega esquinas redondeadas */
+    border: 2px solid #ccc;
     width: auto; 
     height: auto;
     margin: 120px; /* Centra horizontalmente */
@@ -22,8 +23,11 @@ cursor: pointer; */
   
   #containerCard img{
     width: 800px; /* Establece el ancho máximo de la imagen */
-    height: 400px; /* Permite que la altura se ajuste automáticamente */
-    margin-right: 15px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+    height: 700px; /* Permite que la altura se ajuste automáticamente */
+    overflow: hidden; /* Para evitar que las imágenes más grandes se salgan del contenedor */
+    margin-left: 2%; 
+    margin-bottom: 40px;
+    margin-top: 10px;
   }
 
   #containerCard p{
@@ -58,9 +62,11 @@ cursor: pointer; */
     }
 
     #containerCard img{
-      max-width: 100px; /* Establece el ancho máximo de la imagen */
-      height: 100px; /* Permite que la altura se ajuste automáticamente */
+      max-width: 150px; /* Establece el ancho máximo de la imagen */
+      height: 150px; /* Permite que la altura se ajuste automáticamente */
       margin-right: 10px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
 

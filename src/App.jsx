@@ -11,6 +11,7 @@ import CardPromo from "./component/cardpromo/CardPromo";
 import NuestrasSedes from "./component/sedes/NuestrasSedes";
 import Fotosfooter from "./component/fotosfooter/Fotosfooter";
 import RompeTusLimites from "./rompeTusLimites/RompeTusLimites";
+import Fotter from "./footer/Fotter";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
       <NuestrasSedes/>
       <CardPromo/>
       <Fotosfooter/>
-      
+      <Fotter/>
       
      
 

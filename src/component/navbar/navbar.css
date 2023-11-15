@@ -4,22 +4,34 @@
   width: auto;
   height: auto  ;
 }
+.container-swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
 
 .container-logo {
+  
   display: flex;
-  height: 600px; /* Ajusta la altura según tus necesidades */
+  height: auto; /* Ajusta la altura según tus necesidades */
   justify-content: center;
   align-items: center;
   background-color: red;
   margin-right: 10px;
   margin-left: 10px;
-  margin-top: 80px;
+  margin-top: -50px;
 }
 
 .container-logo img {
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  min-width: 100%; /* Cambiado de width: 100% a min-width: 100% */
+  height: 100%;
+  object-fit: cover;
+  margin: 0; /* Asegúrate de que no haya márgenes */
+  padding: 0; /* Asegúrate de que no haya relleno */
 }
 
 .container-boton{
@@ -88,13 +100,15 @@ button {
 }
 
 .enlaces {
+  position: absolute;
   display: flex; /* Mostrar los enlaces en tablets y pantallas grandes */
-    justify-content: space-between; /* Restablecer la distribución */
+    justify-content:space-between; /* Restablecer la distribución */
     align-items: center;
   list-style: none;
   z-index: 999;
-  margin-top: 20px;
-  right: 90px;
+  margin-top: 70px;
+  right: 30%;
+  
   
 
 }
@@ -149,7 +163,7 @@ button {
   
   .container-logo {
     display: flex;
-    height: auto; /* Ajusta la altura según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
     justify-content: center;
     align-items: center;
     background-color: red;
@@ -161,7 +175,9 @@ button {
   .container-logo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    margin: 0; /* Asegúrate de que no haya márgenes */
+  padding: 0; /* Asegúrate de que no haya relleno */
   }
 
   .container-boton {

@@ -1,0 +1,33 @@
+.container-Fotter{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: red;
+top: 0;
+width: 100%;
+height: 100px;
+margin-top: 30px;   
+}
+
+.container-Fotter p{
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .container-Fotter{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        }
+    .container-Fotter p{
+        font-size: 10px;
+        color: white;
+    }
+}
+

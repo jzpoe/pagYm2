@@ -18,9 +18,9 @@ ScrollReveal().reveal('#containerCard',{
 
     return (
       <div id="containerCard">
-        <img src="https://img.freepik.com/foto-gratis/vista-angulo-hombre-musculoso-irreconocible-preparandose-levantar-barra-club-salud_637285-2497.jpg?w=740&t=st=1699394392~exp=1699394992~hmac=60214d08beb28898f3e3ac9ed98b3559d87bb307e52b0f629f2d65ccf113006b" alt="hombre con barra" />
-        
-        
+        <img src="https://img.freepik.com/foto-gratis/entrenador-ayudando-principiantes-gimnasio_23-2149561880.jpg?w=1380&t=st=1700052629~exp=1700053229~hmac=aa166fbf933ec805e5ece659cc45fc48b45b129f722def5f7b353e59bbfc4d0a"/>
+        <h1>SPINNIG</h1>
+        <p>¡Descubre la revolución del fitness con nuestras clases de spinning en [Nombre del Gimnasio]! Sumérgete en una experiencia única que fusiona la emoción del ciclismo de interior con sesiones llenas de energía y ritmo vibrante.</p>
       </div>
       
     )
